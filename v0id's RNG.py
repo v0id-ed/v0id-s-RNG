@@ -302,7 +302,7 @@ def main():
                 draw_button(screen, "New Game", 300, 500, 200, 50, PURPLE, WHITE, flash=flash_active)
 
         pygame.display.flip()
-        clock.tick(30)  # slowed down loop for smoother video
+        clock.tick(20)
         
 
     pygame.quit()
